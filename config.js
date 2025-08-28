@@ -17,7 +17,7 @@ var config = {
     '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod, Jorge Gutierrez Lucena and Emma Eva Schut <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
   chapters: [
     {
-      id: "PS",
+      id: "INTRO",
       alignment: "left",
       hidden: false,
       title: "Safeguarding UN assistance to Palestine",
