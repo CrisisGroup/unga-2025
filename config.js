@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm1ak8yls00v401pd1j69ckmc",
+  style: "mapbox://styles/daltonwb/cmfcevom3006e01sj4osf04gm",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -9,7 +9,7 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2025–2026</h1><p class="hedp">Lorem ipsum. Esse in fugiat qui labore mollit elit culpa anim.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2025–2026</h1><p class="hedp">World leaders arriving in New York for the UN General Assembly in September will find a world organisation in trauma. Funding cuts have hit hard, and the wider UN membership faces tough choices about how to manage the fall out. Despite long-term questions over its future, the UN can still play a major role in a wide range of countries, conflicts and areas of work.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
@@ -20,10 +20,10 @@ var config = {
       id: "INTRO",
       alignment: "left",
       hidden: false,
-      title: "Safeguarding UN assistance to Palestine",
+      title: "An Organisation in Trauma",
       image: "",
       description:
-        "The UN Relief and Works Agency for Palestine Refugees in the Near East provides the main logistics hub <a href='https://www.unrwa.org/what-we-do/gaza-supplies-and-dispatch-tracking' target='_blank'>for aid into Gaza</a>. Israel has shuttered many of the crossings into Gaza, and humanitarian agencies have been able to use only two – Kerem Shalom and Gate 96 – since the end of July." +
+        "U.S. aid cuts and freezes have hit the UN hard, forcing the organisation into sweeping reductions in both staff and programming. Humanitarian aid operations have been hit the hardest, impairing the UN’s ability to deliver life-saving assistance to civilians in conflict settings. The UN’s other members have not filled the financial gaps that Washington left behind." +
         "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
@@ -37,88 +37,45 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "palestine",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "palestine_2",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "gaza_strip",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "open-crossings",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "closed-crossings",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "nyc",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "WHITE_HOUSE",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "UN_BUILDING",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0,
-        }
+        
       ],
       onChapterExit: [
-        {
-          layer: "palestine",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "palestine_2",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "gaza_strip",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "open-crossings",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "closed-crossings",
-          duration: 2000,
-          opacity: 0,
-        },
+        
+      ],
+    },
+    {
+      id: "PALESTINE",
+      alignment: "left",
+      hidden: false,
+      title: "Safeguarding UN assistance to Palestine",
+      image: "",
+      description:
+        "Despite Israeli pushback on UN assistance to Gaza, the General Assembly can serve as a clearinghouse for concrete pledges to apply material pressure on Israel. 124 member states voted in favour of a September 2024 General Assembly resolution that builds on the International Court of Justice’s advisory opinion asserting the illegality of Israeli’s continued occupation of the Palestinian territories, and lays out legal duties that member states can act upon." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120468" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [34.31234, 31.37974],
+        zoom: 10.5,
+        pitch: 32.5,
+        bearing: 0,
+        speed: 0.7,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        
+      ],
+      onChapterExit: [
+        
       ],
     },
     {
       id: "SUDAN",
       alignment: "left",
       hidden: false,
-      title: "Surging Humanitarian Diplomacy for Sudan",
+      title: "A Surge in Humanitarian Diplomacy for Sudan",
       image: "",
       description:
-        "The Secretary-General’s Personal Envoy Ramtane Lamamra convened representatives of the Sudanese army and Rapid Support Forces (RSF) for proximity talks on humanitarian issues in Geneva in July. This meeting helped pave the way for an agreement between the belligerents one month later to reopen a humanitarian corridor through Adre, a Chadian border city, into the RSF-held Western Darfur region of Sudan." +
+        "Unrelenting fighting has devastated much of Sudan. In December 2024 the IPC detected famine in parts of the Darfur and Kordofan regions, and said recently that other areas are now at risk. The UN should not delay in pushing for an improved humanitarian response, while standing ready to re-engage with political negotiations if and when they resume." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120468" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -132,73 +89,20 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "adre_dot",
-          duration: 7000,
-          opacity: 1,
-        },
-        {
-          layer: "adre_label",
-          duration: 7000,
-          opacity: 1,
-        },
-        {
-          layer: "adre_blur",
-          duration: 7000,
-          opacity: 1,
-        },
-        {
-          layer: "SUDAN-LABEL",
-          duration: 1000,
-          opacity: 1,
-        },
-        {
-          layer: "CHAD",
-          duration: 1000,
-          opacity: 1,
-        }
+        
       ],
       onChapterExit: [
-        {
-          layer: "adre_dot",
-          duration: 1000,
-          opacity: 0,
-        },
-        {
-          layer: "adre_label",
-          duration: 1000,
-          opacity: 0,
-        },
-        {
-          layer: "adre_blur",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "SUDAN-LABEL",
-          duration: 1000,
-          opacity: 0,
-        },
-        {
-          layer: "CHAD",
-          duration: 1000,
-          opacity: 0,
-        }
+        
       ],
     },
     {
       id: "SYRIA",
       alignment: "center",
       hidden: false,
-      title: "Resetting the UN’s approach to Syria",
+      title: "Resetting the UN’s Approach to Syria",
       image: "",
       description:
-        "With violence rising across much of the country over the last year, and the army and its proxies often finding themselves forced onto the back foot by ethnic armed groups and post-coup resistance forces, the UN should strengthen its ability to deliver aid to vulnerable populations and bolster its diplomatic efforts in the region." +
+        "The UN has been recalculating its engagement in Syria since the ouster of President Bashar al-Assad in December 2024. It may have only a small window of opportunity to demonstrate that the UN can be a helpful partner as Syria tries to emerge from war and authoritarian rule. Steps should be taken to expand the UN’s presence in Damascus and lift UN sanctions on the new authorities." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><p class='photocaption'>A member of the ethnic armed group Ta’ang National Liberation Army (TNLA) keeping watch as people buy groceries at a street market in Kyaukme in Myanmar’s northern Shan State. July 2024. STR / AFP.</p>",
       location: {
@@ -221,62 +125,34 @@ var config = {
       title: "Reviving International Assistance to Haiti",
       image: "",
       description:
-        "The most pressing question for Haiti revolves around the Multinational Security Support Mission operational profile, funding and future. Once sufficiently equipped and staffed, the mission should endeavour to help police protect the capital’s critical infrastructure and step up operations against gang strongholds, with a view both to tempering the country’s humanitarian crisis and providing a safe environment for holding elections." +
+        "Security across Haiti has deteriorated since the Kenyan-led Multinational Security Support Mission (MSS) deployed in June 2024: armed gangs are active in about 90 per cent of the capital Port-au-Prince and they control vital economic routes outside the city. Members of the Security Council are now debating whether to transform the MSS into a larger “Gang-Suppression Force” proposed by the U.S." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120476" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [-72.277873, 18.57867],
-        zoom: 16.5,
-        pitch: 0,
-        bearing: 0,
-        speed: 0.9,
+        center: [-72.217833, 18.511964],
+        zoom: 12.6,
+        pitch: 67,
+        bearing: -176,
+        speed: 0.7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "tla-dot",
-          duration: 7000,
-          opacity: 1,
-        },
-        {
-          layer: "tla-label",
-          duration: 7000,
-          opacity: 1,
-        },
-        {
-          layer: "tla-dot blur",
-          duration: 7000,
-          opacity: 1,
-        }
+ 
       ],
       onChapterExit: [
-        {
-          layer: "tla-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "tla-label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "tla-dot blur",
-          duration: 7000,
-          opacity: 0,
-        }
+ 
       ],
     },
     {
       id: "AFGHAN",
       alignment: "center",
       hidden: false,
-      title: "Updating the UN Sanctions Regime against the Taliban in Afghanistan",
+      title: "Updating Sanctions on the Afghan Taliban",
       image: "",
       description:
-        "The UN has an opportunity to step in to boost measures to protect women, drawing on its mandate to support the 2016 peace agreement and to accompany new talks with armed and criminal groups. At the same time, the organisation should seek to revitalise existing commitments to bolster women’s participation in politics and peacebuilding, which have flagged over recent years but remain critical to rectifying the historical exclusion of marginalised groups and achieving equitable peace." + '<div class="spacer"></div>' + 
+        "The mandate of the Security Council’s sanctions regime against the Taliban - comprising an arms embargo, travel bans and asset freezes - has not been updated since 2015 and contains many anachronisms. Updating the sanctions regime could help the Council nudge the Taliban towards modest changes in their behaviour and offer the UN a belated diplomatic opportunity to influence Afghanistan’s trajectory." + '<div class="spacer"></div>' + 
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
       location: {
         center: [-74.09794, 4.69284],
@@ -289,11 +165,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "unga-missions",
-          duration: 2000,
-          opacity: 0,
-        }
+
       ],
       onChapterExit: [],
     },
@@ -301,10 +173,10 @@ var config = {
       id: "DRC",
       alignment: "left",
       hidden: false,
-      title: "Adjusting MONUSCO’s role in the Eastern DRC",
+      title: "Adjusting MONUSCO’s Role in the Eastern DRC",
       image: "",
       description:
-        "The UN is downsizing its peacekeeping missions in Africa, where it has run most of its peace operations over the last quarter-century. As a result, the Security Council and wider UN membership are grappling with the question of how the UN can contribute to stability on the continent in the future, including what role blue helmet missions might play and how operational and financial support could be provided to African-led deployments." + "<div class='spacer'></div>" + "This map shows countries currently hosting UN peacekeeping missions, AU-authorised peace support operations and regional security operations." +
+        "The Security Council will vote in December on a new mandate for MONUSCO, the blue helmet mission in the Eastern DRC, nearly a year after Rwandan-backed M23 rebels captured the capitals of the North Kivu and South Kivu provinces. The UN still has a role to play in the region, especially if the parties comply with a long-promised ceasefire." + "<div class='spacer'></div>" + "This map shows countries currently hosting UN peacekeeping missions, AU-authorised peace support operations and regional security operations." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120484" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -318,18 +190,10 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "unga-missions",
-          duration: 2000,
-          opacity: 1,
-        }
+
       ],
       onChapterExit: [
-        {
-          layer: "unga-missions",
-          duration: 2000,
-          opacity: 0,
-        }
+
       ],
     },
     {
@@ -339,7 +203,7 @@ var config = {
       title: "Refocusing Attention on the Rohingya Refugee Crisis",
       image: "",
       description:
-        "The Peacebuilding Fund, one part of the UN's peacebuilding architecture, has a good reputation for providing limited but speedy financing for local peace talks and bolstering countries’ justice systems. Although the Fund sometimes backs projects in places where the UN already has peace operations, it also funds UN efforts in states – such as Burkina Faso and Papua New Guinea – where the organisation has no political presence." + "<div class='spacer'></div>" + "The map shows countries receiving UN peacebuilding fund allocations in 2023 (source: A/78/779)." +
+        " On 30 September, UN members will hold a special high-level conference in New York on the Rohingya crisis. While this gathering will cover both the situation in Myanmar’s Rakhine State and questions related to the humanitarian response across the border, participants should also focus on insecurity in the refugee camps in Bangladesh." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120488" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -353,18 +217,10 @@ var config = {
       rotateAnimation: true,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "peace_fund_countries",
-          duration: 2000,
-          opacity: .7,
-        }
+
       ],
       onChapterExit: [
-        {
-          layer: "peace_fund_countries",
-          duration: 2000,
-          opacity: 0,
-        }
+        
       ],
     },
     {
@@ -372,10 +228,10 @@ var config = {
       alignment: "center",
       hidden: false,
       title:
-        "Responding to Sexual and Reproductive Health Needs in Armed Conflict",
+        "Meeting Sexual and Reproductive Health Needs in Conflict Settings",
       image: "",
       description:
-        "The Security Council will vote in December on extending a humanitarian exemption for sanctions against al-Qaeda and the Islamic State. Resolution 2664, approved by the Council in 2022, has already exempted transactions carried out to support humanitarian activities from UN-mandated asset freezes, removing longstanding obstacles to aid delivery to ameliorate several of the world’s biggest humanitarian emergencies. Twelve of the countries where sanctioned groups are active have major humanitarian operations that together serve more than 100 million people in need." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/terror_aid.png" /><br /><br />',
+        "As budget cuts upend the UN system, sexual and reproductive health services in conflict zones are at particular risk. Donors should ringfence their remaining support for these health services, while working with the UN to intensify efforts to address the shortcomings in national healthcare systems." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/terror_aid.png" /><br /><br />',
         location: {
           center: [-28.58292, 10.67017],
           zoom: 2,
@@ -387,38 +243,20 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        {
-          layer: "nyc",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "WHITE_HOUSE",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "unga-missions",
-          duration: 3000,
-          opacity: 1,
-        }
+       
       ],
       onChapterExit: [
-        {
-          layer: "unga-missions",
-          duration: 4000,
-          opacity: 0,
-        }
+
       ],
     },
     {
       id: "IRAN",
       alignment: "left",
       hidden: false,
-      title: "Managing the Fall Out of Snapback Sanctions on Iran",
+      title: "Managing the Fallout of Snapback Sanctions on Iran",
       image: "",
       description:
-        "Despite the host of headaches facing the UN, ambassadors and international officials acknowledge that November’s U.S. elections could present them with a raft of new problems, depending on the outcome. The ups-and-downs of U.S. relations with the UN during both the Trump and Biden terms should be instructive for other UN members. As future U.S. administrations reassess their global posture, their investment in international organisations is liable to fluctuate. U.S. backing for a strong UN is not guaranteed under any president." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
+        "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs.  The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-77.03653, 38.89763],
         zoom: 16.75,
@@ -430,33 +268,20 @@ var config = {
       rotateAnimation: false,
       callback: "rotateData",
       onChapterEnter: [
-        {
-          layer: "WHITE_HOUSE",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "nyc",
-          duration: 2000,
-          opacity: 0,
-        }
+
       ],
       onChapterExit: [
-        {
-          layer: "WHITE_HOUSE",
-          duration: 2000,
-          opacity: 0,
-        }
+
       ],
     },
     {
       id: "UKRAINE",
       alignment: "left",
       hidden: false,
-      title: "Scoping a potential role for the UN in Ukraine",
+      title: "Scoping a Potential Role for the UN in Ukraine",
       image: "",
       description:
-        "The race to replace António Guterres as UN Secretary-General will heat up in the year ahead. Though the Security Council and General Assembly are unlikely to select his successor more than a few months before his term ends on 31 December 2026, a shadow race is already under way as potential candidates stake claims to lead the organisation. The eventual winner will play an important role in shaping the UN’s role in peace and security over the coming decade." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
+        "The Trump Administration shook up UN debates in February by opposing a Ukrainian- and European- drafted General Assembly resolution marking the war’s third anniversary and tabling an alternative in the Security Council calling for an early peace. Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-73.96756, 40.75006],
         zoom: 16,
@@ -466,25 +291,12 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "rotateData",
+      callback: "",
       onChapterEnter: [
-        {
-          layer: "UN_BUILDING",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "nyc",
-          duration: 2000,
-          opacity: 0,
-        }
+        
       ],
       onChapterExit: [
-        {
-          layer: "UN_BUILDING",
-          duration: 2000,
-          opacity: 0,
-        }
+
       ],
     },
   ],
