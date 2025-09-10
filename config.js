@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cmfcevom3006e01sj4osf04gm",
+  style: "mapbox://styles/daltonwb/cmfe4vlnj00he01s5f3xs5dbo",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -27,15 +27,15 @@ var config = {
         "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
-        center: [34.31234, 31.37974],
-        zoom: 10.5,
-        pitch: 32.5,
-        bearing: 0,
-        speed: 0.7,
+        center: [34.589385, 24.578897],
+        zoom: 3.6,
+        pitch: 57,
+        bearing: -44,
+        speed: 0,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
+      callback: "disableFreetime",
       onChapterEnter: [
         
       ],
@@ -50,17 +50,17 @@ var config = {
       title: "Safeguarding UN assistance to Palestine",
       image: "",
       description:
-        "Despite Israeli pushback on UN assistance to Gaza, the General Assembly can serve as a clearinghouse for concrete pledges to apply material pressure on Israel. 124 member states voted in favour of a September 2024 General Assembly resolution that builds on the International Court of Justice’s advisory opinion asserting the illegality of Israeli’s continued occupation of the Palestinian territories, and lays out legal duties that member states can act upon." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120468" target="_blank">&#8594; [Read more]</a>',
+        "Despite Israeli pushback on UN assistance to Gaza, the General Assembly can serve as a clearinghouse for concrete pledges to apply material pressure on Israel. 124 member states voted in favour of a September 2024 General Assembly resolution that builds on the International Court of Justice’s advisory opinion asserting the illegality of Israeli’s continued occupation of the Palestinian territories, and lays out legal duties that member states can act upon.",
       location: {
-        center: [34.31234, 31.37974],
-        zoom: 10.5,
-        pitch: 32.5,
-        bearing: 0,
-        speed: 0.7,
+        center: [-61.29315, 9.81898],
+        zoom: 2,
+        pitch: 18,
+        bearing: 12,
+        speed: .5
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
+      rotateAnimation: true,
+      callback: "enableFreetime",
       onChapterEnter: [
         
       ],
@@ -84,10 +84,11 @@ var config = {
         pitch: 20,
         bearing: 0,
         speed: 0.6,
+        bbox: [[21.8, 8.7], [38.6, 22.3]]
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
+      callback: "disableFreetime",
       onChapterEnter: [
         
       ],
@@ -106,8 +107,8 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><p class='photocaption'>A member of the ethnic armed group Ta’ang National Liberation Army (TNLA) keeping watch as people buy groceries at a street market in Kyaukme in Myanmar’s northern Shan State. July 2024. STR / AFP.</p>",
       location: {
-        center: [95.588857, 22.595168],
-        zoom: 3,
+        center: [38.9968, 35.0143],
+        zoom: 4,
         pitch: 0,
         bearing: 0,
         speed: 1,
@@ -129,15 +130,15 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120476" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [-72.217833, 18.511964],
-        zoom: 12.6,
+        center: [-72.30001, 18.48639],
+        zoom: 11.5,
         pitch: 67,
         bearing: -176,
         speed: 0.7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
+      callback: "roadDraw",
       onChapterEnter: [
  
       ],
@@ -266,7 +267,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "rotateData",
+      callback: "",
       onChapterEnter: [
 
       ],
@@ -293,7 +294,7 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        
+
       ],
       onChapterExit: [
 
