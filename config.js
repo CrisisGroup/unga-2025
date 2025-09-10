@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cmfe4vlnj00he01s5f3xs5dbo",
+  style: "mapbox://styles/daltonwb/cmfebsr9b00j401rw83kf81th",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -14,7 +14,7 @@ var config = {
   subtitle: "",
   byline: "",
   footer:
-    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod, Jorge Gutierrez Lucena and Emma Eva Schut <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: <a href="https://www.linkedin.com/in/pkfranz" target="_blank">Paul Franz</a>, Claire Boccon-Gibod, Sofia Nunes Aureli.<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
   chapters: [
     {
       id: "INTRO",
@@ -31,7 +31,7 @@ var config = {
         zoom: 3.6,
         pitch: 57,
         bearing: -44,
-        speed: 0,
+        speed: 0.7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -70,10 +70,38 @@ var config = {
       rotateAnimation: true,
       callback: "enableFreetime",
       onChapterEnter: [
-
+        {
+          layer: "country-vote-poly",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "extra-countries",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "vote-borders",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "country-vote-poly",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "extra-countries",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "vote-borders",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -212,7 +240,7 @@ var config = {
       title: "Refocusing Attention on the Rohingya Refugee Crisis",
       image: "",
       description:
-        " On 30 September, UN members will hold a special high-level conference in New York on the Rohingya crisis. While this gathering will cover both the situation in Myanmar’s Rakhine State and questions related to the humanitarian response across the border, participants should also focus on insecurity in the refugee camps in Bangladesh." +
+        "On 30 September, UN members will hold a special high-level conference in New York on the Rohingya crisis. While this gathering will cover both the situation in Myanmar’s Rakhine State and questions related to the humanitarian response across the border, participants should also focus on insecurity in the refugee camps in Bangladesh." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120488" target="_blank">&#8594; [Read more]</a>',
       location: {
