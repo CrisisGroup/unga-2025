@@ -37,10 +37,18 @@ var config = {
       rotateAnimation: false,
       callback: "disableFreetime",
       onChapterEnter: [
-        
+        {
+          layer: "un_funding",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-        
+        {
+          layer: "un_funding",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -62,10 +70,10 @@ var config = {
       rotateAnimation: true,
       callback: "enableFreetime",
       onChapterEnter: [
-        
+
       ],
       onChapterExit: [
-        
+
       ],
     },
     {
@@ -90,10 +98,10 @@ var config = {
       rotateAnimation: false,
       callback: "disableFreetime",
       onChapterEnter: [
-        
+
       ],
       onChapterExit: [
-        
+
       ],
     },
     {
@@ -140,10 +148,10 @@ var config = {
       rotateAnimation: false,
       callback: "roadDraw",
       onChapterEnter: [
- 
+
       ],
       onChapterExit: [
- 
+
       ],
     },
     {
@@ -153,7 +161,7 @@ var config = {
       title: "Updating Sanctions on the Afghan Taliban",
       image: "",
       description:
-        "The mandate of the Security Council’s sanctions regime against the Taliban - comprising an arms embargo, travel bans and asset freezes - has not been updated since 2015 and contains many anachronisms. Updating the sanctions regime could help the Council nudge the Taliban towards modest changes in their behaviour and offer the UN a belated diplomatic opportunity to influence Afghanistan’s trajectory." + '<div class="spacer"></div>' + 
+        "The mandate of the Security Council’s sanctions regime against the Taliban - comprising an arms embargo, travel bans and asset freezes - has not been updated since 2015 and contains many anachronisms. Updating the sanctions regime could help the Council nudge the Taliban towards modest changes in their behaviour and offer the UN a belated diplomatic opportunity to influence Afghanistan’s trajectory." + '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
       location: {
         center: [-74.09794, 4.69284],
@@ -181,8 +189,8 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120484" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [12.27552, 10.15932],
-        zoom: 3,
+        center: [29.23758, -1.65779],
+        zoom: 15,
         pitch: 0,
         bearing: 0,
         speed: 0.4,
@@ -208,8 +216,8 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120488" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [-28.58292, 10.67017],
-        zoom: 2,
+        center: [91.987856, 21.437842],
+        zoom: 15,
         pitch: 0,
         bearing: 0,
         speed: 0.6,
@@ -221,7 +229,7 @@ var config = {
 
       ],
       onChapterExit: [
-        
+
       ],
     },
     {
@@ -233,18 +241,18 @@ var config = {
       image: "",
       description:
         "As budget cuts upend the UN system, sexual and reproductive health services in conflict zones are at particular risk. Donors should ringfence their remaining support for these health services, while working with the UN to intensify efforts to address the shortcomings in national healthcare systems." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/terror_aid.png" /><br /><br />',
-        location: {
-          center: [-28.58292, 10.67017],
-          zoom: 2,
-          pitch: 0,
-          bearing: 0,
-          speed: 0.6,
-        },
+      location: {
+        center: [-28.58292, 10.67017],
+        zoom: 2,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.6,
+      },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-       
+
       ],
       onChapterExit: [
 
@@ -259,15 +267,15 @@ var config = {
       description:
         "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs.  The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [-77.03653, 38.89763],
-        zoom: 16.75,
-        pitch: 57,
-        bearing: 17.6,
+        center: [20.69195, 43.91663],
+        zoom: 3,
+        pitch: 32,
+        bearing: 23,
         speed: 0.8,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
+      callback: "disableFreetime",
       onChapterEnter: [
 
       ],
@@ -284,15 +292,15 @@ var config = {
       description:
         "The Trump Administration shook up UN debates in February by opposing a Ukrainian- and European- drafted General Assembly resolution marking the war’s third anniversary and tabling an alternative in the Security Council calling for an early peace. Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [-73.96756, 40.75006],
-        zoom: 16,
-        pitch: 62,
-        bearing: -44,
-        speed: 0.4,
+        center: [-61.29315, 9.81898],
+        zoom: 2,
+        pitch: 18,
+        bearing: 12,
+        speed: .5
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
+      rotateAnimation: true,
+      callback: "enableFreetime",
       onChapterEnter: [
 
       ],
