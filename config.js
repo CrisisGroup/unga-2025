@@ -22,6 +22,7 @@ var config = {
       hidden: false,
       title: "An Organisation in Trauma",
       image: "",
+      legendId: 'fundingLegend',
       description:
         "U.S. aid cuts and freezes have hit the UN hard, forcing the organisation into sweeping reductions in both staff and programming. Humanitarian aid operations have been hit the hardest, impairing the UN’s ability to deliver life-saving assistance to civilians in conflict settings. The UN’s other members have not filled the financial gaps that Washington left behind." +
         "<br /><br />" +
@@ -57,6 +58,7 @@ var config = {
       hidden: false,
       title: "Safeguarding UN assistance to Palestine",
       image: "",
+      legendId: 'gazaLegend',
       description:
         "Despite Israeli pushback on UN assistance to Gaza, the General Assembly can serve as a clearinghouse for concrete pledges to apply material pressure on Israel. Notably, 124 member states voted in favour of a September 2024 General Assembly resolution that builds on the International Court of Justice’s advisory opinion asserting the illegality of Israeli’s continued occupation of the Palestinian territories, and lays out legal duties that member states can act upon." +
         '<div class="spacer"></div>' +
@@ -112,6 +114,7 @@ var config = {
       hidden: false,
       title: "A Surge in Humanitarian Diplomacy for Sudan",
       image: "",
+      legendId: 'sudanLegend',
       description:
         "Unrelenting fighting has devastated much of Sudan. In December 2024 the UN’s famine watchdog organisation – or the Integrated Food Security Phase Classification (IPC) – detected famine in parts of the Darfur and Kordofan regions, and said recently that other areas are now at risk. The UN should not delay in pushing for an improved humanitarian response, while standing ready to re-engage with political negotiations if and when they resume." +
         '<div class="spacer"></div>' +
@@ -191,6 +194,7 @@ var config = {
       hidden: false,
       title: "Resetting the UN’s Approach to Syria",
       image: "",
+      legendId: '',
       description:
         "The UN has been recalculating its engagement in Syria since the ouster of President Bashar al-Assad in December 2024. It may have only a small window of opportunity to demonstrate that the UN can be a helpful partner as Syria tries to emerge from war and authoritarian rule. Steps should be taken to expand the UN’s presence in Damascus and lift UN sanctions on the new authorities." +
         '<div class="spacer"></div>' +
@@ -214,6 +218,7 @@ var config = {
       hidden: false,
       title: "Reviving International Assistance to Haiti",
       image: "",
+      legendId: 'haitiLegend',
       description:
         "Security across Haiti has deteriorated since the Kenyan-led Multinational Security Support Mission (MSS) deployed in June 2024: armed gangs are active in about 90 per cent of the capital Port-au-Prince and they control vital economic routes outside the city. Members of the Security Council are now debating whether to transform the MSS into a larger “Gang-Suppression Force” proposed by the U.S." +
         '<div class="spacer"></div>' +
@@ -265,6 +270,7 @@ var config = {
       hidden: false,
       title: "Adjusting MONUSCO’s Role in the Eastern DRC",
       image: "",
+      legendId: '',
       description:
         "The Security Council will vote in December on a new mandate for MONUSCO, the blue helmet mission in the Eastern DRC, nearly a year after Rwandan-backed M23 rebels captured the capitals of the North Kivu and South Kivu provinces. The UN still has a role to play in the region, especially if the parties comply with a long-promised ceasefire." + "<div class='spacer'></div>" + "M23 rebels captured the Goma airport as part of their assault on the capital city of North Kivu. This is a view of the airport before the takeover." +
         '<div class="spacer"></div>' +
@@ -317,6 +323,7 @@ var config = {
       hidden: false,
       title: "Refocusing Attention on the Rohingya Refugee Crisis",
       image: "",
+      legendId: 'myanmarLegend',
       description:
         "On 30 September, UN members will hold a special high-level conference in New York on the Rohingya crisis. While this gathering will cover both the situation in Myanmar’s Rakhine State and questions related to the humanitarian response across the border, participants should also focus on insecurity in the refugee camps in Bangladesh." +
         '<div class="spacer"></div>' +
@@ -370,6 +377,7 @@ var config = {
       hidden: false,
       title: "Managing the Fallout of Snapback Sanctions on Iran",
       image: "",
+      legendId: 'gazaLegend',
       description:
         "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs. The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130960" target="_blank">&#8594; [Read more]</a>',
       location: {
