@@ -303,7 +303,7 @@ p {
     right: 40px;
     color: #E4E4E4;
     padding: 10px 50px;
-    z-index: -2;
+    z-index: 1000;
     font-weight: 700;
     text-shadow: 0 0 10px #000000;
 }

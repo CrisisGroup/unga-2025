@@ -89,6 +89,11 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+        {
+          layer: "SUDAN_LABEL",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
       onChapterExit: [
         {
@@ -135,12 +140,17 @@ var config = {
       callback: "disableFreetime",
       onChapterEnter: [
         {
+          layer: "SUDAN_LABEL",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "sudan-a2-borders",
           duration: 2000,
           opacity: 1,
         },
         {
-          layer: "sudan-emergency-may",
+          layer: "sudan-emergency",
           duration: 2000,
           opacity: 1,
         },
@@ -215,6 +225,11 @@ var config = {
       callback: "disableFreetime",
       onChapterEnter: [
         {
+          layer: "SUDAN_LABEL",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "sudan-a2-borders",
           duration: 2000,
           opacity: 1,
@@ -263,6 +278,11 @@ var config = {
         },
         {
           layer: "sudan-no-data-may",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "SUDAN_LABEL",
           duration: 2000,
           opacity: 0,
         },
@@ -357,7 +377,7 @@ var config = {
         '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130948" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [29.23758, -1.65779],
-        zoom: 15,
+        zoom: 16.5,
         pitch: 0,
         bearing: 0,
         speed: 0.7,
@@ -390,7 +410,7 @@ var config = {
         "By February 2025, the airport runways are empty, replaced by barricades.",
       location: {
         center: [29.23758, -1.65779],
-        zoom: 15,
+        zoom: 17,
         pitch: 0,
         bearing: 0,
         speed: 0.7,
@@ -473,7 +493,7 @@ var config = {
       hidden: false,
       title: "Managing the Fallout of Snapback Sanctions on Iran",
       image: "",
-      legendId: 'gazaLegend',
+      legendId: '',
       description:
         "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs. The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130960" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -627,6 +647,7 @@ var config = {
       hidden: false,
       title: "Scoping a Potential Role for the UN in Ukraine",
       image: "",
+      legendId: 'ukraineLegend',
       description:
         "The Trump Administration shook up UN debates in February by opposing a Ukrainian- and European- drafted General Assembly resolution marking the war’s third anniversary and tabling an alternative in the Security Council calling for an early peace. Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130964" target="_blank">&#8594; [Read more]</a>',
       location: {
