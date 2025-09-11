@@ -445,20 +445,38 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130952" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [91.987856, 21.437842],
-        zoom: 13,
-        pitch: 0,
-        bearing: 0,
+        center: [92.223778, 21.033171],
+        zoom: 11.2,
+        pitch: 14.5,
+        bearing: 41,
         speed: 0.6,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-
+        {
+          layer: "bazar_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "cox_area",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "bazar_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "cox_area",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -572,6 +590,11 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+        {
+          layer: "vote-borders",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
       onChapterExit: [
         {
@@ -649,7 +672,7 @@ var config = {
       image: "",
       legendId: 'ukraineLegend',
       description:
-        "The Trump Administration shook up UN debates in February by opposing a Ukrainian- and European- drafted General Assembly resolution marking the war’s third anniversary and tabling an alternative in the Security Council calling for an early peace. Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130964" target="_blank">&#8594; [Read more]</a>',
+        "The Trump Administration shook up UN debates in February by opposing a Ukrainian- and European- drafted General Assembly resolution marking the war’s third anniversary and tabling an alternative in the Security Council calling for an early peace." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130964" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-61.29315, 9.81898],
         zoom: 2,
@@ -661,10 +684,62 @@ var config = {
       rotateAnimation: true,
       callback: "enableFreetime",
       onChapterEnter: [
-
+        {
+          layer: "vote-borders",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "eu_vote",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "eu_vote",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
+    },
+    {
+      id: "UKRAINE-2",
+      alignment: "left",
+      hidden: false,
+      title: "Scoping a Potential Role for the UN in Ukraine",
+      image: "",
+      legendId: 'ukraineLegend',
+      description:
+        "Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation.",
+      location: {
+        center: [-61.29315, 9.81898],
+        zoom: 2,
+        pitch: 18,
+        bearing: 12,
+        speed: .5
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "enableFreetime",
+      onChapterEnter: [
+        {
+          layer: "us_vote",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "vote-borders",
+          duration: 2000,
+          opacity: 1,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "us_vote",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
   ],
