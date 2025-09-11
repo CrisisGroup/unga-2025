@@ -194,7 +194,7 @@ var config = {
       description:
         "The UN has been recalculating its engagement in Syria since the ouster of President Bashar al-Assad in December 2024. It may have only a small window of opportunity to demonstrate that the UN can be a helpful partner as Syria tries to emerge from war and authoritarian rule. Steps should be taken to expand the UN’s presence in Damascus and lift UN sanctions on the new authorities." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><p class='photocaption'>A member of the ethnic armed group Ta’ang National Liberation Army (TNLA) keeping watch as people buy groceries at a street market in Kyaukme in Myanmar’s northern Shan State. July 2024. STR / AFP.</p>",
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130936" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><p class='photocaption'>A member of the ethnic armed group Ta’ang National Liberation Army (TNLA) keeping watch as people buy groceries at a street market in Kyaukme in Myanmar’s northern Shan State. July 2024. STR / AFP.</p>",
       location: {
         center: [38.9968, 35.0143],
         zoom: 4,
@@ -217,7 +217,7 @@ var config = {
       description:
         "Security across Haiti has deteriorated since the Kenyan-led Multinational Security Support Mission (MSS) deployed in June 2024: armed gangs are active in about 90 per cent of the capital Port-au-Prince and they control vital economic routes outside the city. Members of the Security Council are now debating whether to transform the MSS into a larger “Gang-Suppression Force” proposed by the U.S." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120476" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130940" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-72.30001, 18.48639],
         zoom: 11.5,
@@ -243,7 +243,7 @@ var config = {
       image: "",
       description:
         "The mandate of the Security Council’s sanctions regime against the Taliban – comprising an arms embargo, travel bans and asset freezes – has not been updated since 2015 and contains many anachronisms. Updating the sanctions regime could help the Council nudge the Taliban towards modest changes in their behaviour and offer the UN a belated diplomatic opportunity to influence Afghanistan’s trajectory." + '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130944" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
       location: {
         center: [33.9391, 67.7100],
         zoom: 5,
@@ -320,10 +320,10 @@ var config = {
       description:
         "On 30 September, UN members will hold a special high-level conference in New York on the Rohingya crisis. While this gathering will cover both the situation in Myanmar’s Rakhine State and questions related to the humanitarian response across the border, participants should also focus on insecurity in the refugee camps in Bangladesh." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120488" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130952" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [91.987856, 21.437842],
-        zoom: 15,
+        zoom: 13,
         pitch: 0,
         bearing: 0,
         speed: 0.6,
@@ -346,7 +346,7 @@ var config = {
         "Meeting Sexual and Reproductive Health Needs in Conflict Settings",
       image: "",
       description:
-        "As budget cuts upend the UN system, sexual and reproductive health services in conflict zones are at particular risk. Donors should ringfence their remaining support for these health services, while working with the UN to intensify efforts to address the shortcomings in national healthcare systems." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/gender.png" /><br /><br />',
+        "As budget cuts upend the UN system, sexual and reproductive health services in conflict zones are at particular risk. Donors should ringfence their remaining support for these health services, while working with the UN to intensify efforts to address the shortcomings in national healthcare systems." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130956" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/gender.png" /><br /><br />',
       location: {
         center: [-28.58292, 10.67017],
         zoom: 2,
@@ -371,7 +371,7 @@ var config = {
       title: "Managing the Fallout of Snapback Sanctions on Iran",
       image: "",
       description:
-        "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs. The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
+        "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs. The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130960" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [20.69195, 43.91663],
         zoom: 3,
@@ -396,7 +396,7 @@ var config = {
       title: "Scoping a Potential Role for the UN in Ukraine",
       image: "",
       description:
-        "The Trump Administration shook up UN debates in February by opposing a Ukrainian- and European- drafted General Assembly resolution marking the war’s third anniversary and tabling an alternative in the Security Council calling for an early peace. Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
+        "The Trump Administration shook up UN debates in February by opposing a Ukrainian- and European- drafted General Assembly resolution marking the war’s third anniversary and tabling an alternative in the Security Council calling for an early peace. Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130964" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-61.29315, 9.81898],
         zoom: 2,
