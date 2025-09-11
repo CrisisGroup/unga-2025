@@ -391,10 +391,138 @@ var config = {
       rotateAnimation: false,
       callback: 'disableFreetime',
       onChapterEnter: [
-
+        {
+          layer: "uk-fill",
+          duration: 2000,
+          opacity: .6,
+        },
+        {
+          layer: "iran-fill",
+          duration: 2000,
+          opacity: .6,
+        },
+        {
+          layer: "germany-fill",
+          duration: 2000,
+          opacity: .6,
+        },
+        {
+          layer: "france-fill",
+          duration: 2000,
+          opacity: .6,
+        },
+        {
+          layer: "paris",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "berlin",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "london",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "paris_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "london_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "berlin_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "GERMANY",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "France",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "United Kingdom",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "uk-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "iran-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "germany-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "france-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "paris",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "berlin",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "london",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "paris_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "london_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "berlin_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "GERMANY",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "France",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "United Kingdom",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
