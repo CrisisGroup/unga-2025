@@ -145,11 +145,6 @@ var config = {
           opacity: 1,
         },
         {
-          layer: "sudan-a2-borders",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
           layer: "sudan-emergency",
           duration: 2000,
           opacity: 1,
@@ -171,11 +166,6 @@ var config = {
         },
       ],
       onChapterExit: [
-        {
-          layer: "sudan-a2-borders",
-          duration: 2000,
-          opacity: 0,
-        },
         {
           layer: "sudan-emergency",
           duration: 2000,
@@ -230,7 +220,7 @@ var config = {
           opacity: 1,
         },
         {
-          layer: "sudan-a2-borders",
+          layer: "sudan-famine-may",
           duration: 2000,
           opacity: 1,
         },
@@ -257,7 +247,7 @@ var config = {
       ],
       onChapterExit: [
         {
-          layer: "sudan-a2-borders",
+          layer: "sudan-famine-may",
           duration: 2000,
           opacity: 0,
         },
