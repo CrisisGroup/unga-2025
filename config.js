@@ -194,7 +194,7 @@ var config = {
       description:
         "The UN has been recalculating its engagement in Syria since the ouster of President Bashar al-Assad in December 2024. It may have only a small window of opportunity to demonstrate that the UN can be a helpful partner as Syria tries to emerge from war and authoritarian rule. Steps should be taken to expand the UN’s presence in Damascus and lift UN sanctions on the new authorities." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130936" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><p class='photocaption'>A member of the ethnic armed group Ta’ang National Liberation Army (TNLA) keeping watch as people buy groceries at a street market in Kyaukme in Myanmar’s northern Shan State. July 2024. STR / AFP.</p>",
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130936" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/syria.jpg' /><p class='photocaption'>People attend the event of raising the new Syrian government flag for the first time, outside United Nations Headquarters in New York, U.S., April 25, 2025. REUTERS / Eduardo Munoz</p>",
       location: {
         center: [38.9968, 35.0143],
         zoom: 4,
