@@ -296,7 +296,7 @@ var config = {
       id: "DRC-2",
       alignment: "left",
       hidden: false,
-      title: "",
+      title: " ",
       image: "",
       description:
         "By February 2025, the airport runways are empty, replaced by barricades.",
