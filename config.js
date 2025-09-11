@@ -340,7 +340,7 @@ var config = {
         "The mandate of the Security Council’s sanctions regime against the Taliban – comprising an arms embargo, travel bans and asset freezes – has not been updated since 2015 and contains many anachronisms. Updating the sanctions regime could help the Council nudge the Taliban towards modest changes in their behaviour and offer the UN a belated diplomatic opportunity to influence Afghanistan’s trajectory." + '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130944" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
       location: {
-        center: [33.9391, 67.7100],
+        center: [67.7100, 33.9391],
         zoom: 5,
         pitch: 0,
         bearing: 0,
@@ -699,7 +699,7 @@ var config = {
       hidden: false,
       title: "Scoping a Potential Role for the UN in Ukraine",
       image: "",
-      legendId: 'ukraineLegend',
+      legendId: 'ukraineLegend2',
       description:
         "Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation.",
       location: {
