@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cmffjs704000v01sd5t41fihe",
+  style: "mapbox://styles/daltonwb/cmffngv3f000q01qp82dq5g31",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   projection: "globe",
@@ -14,7 +14,7 @@ var config = {
   subtitle: 'World leaders arriving in New York for the UN General Assembly in September will find a world organisation in trauma. Funding cuts have hit hard, and the wider UN membership faces tough choices about how to manage the fall out. Despite long-term questions over its future, the UN can still play a major role in a wide range of countries, conflicts and areas of work.',
   start: 'BEGIN',
   footer:
-    '<strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><br /><strong>Visualisation & Design</strong>: <a href="https://www.linkedin.com/in/pkfranz" target="_blank">Paul Franz</a>, <a href="https://www.linkedin.com/in/claireboccongibod/" target="_blank">Claire Boccon-Gibod</a>, Sofia Nunes Aureli.<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
+    '<h4>Credits</h4><br /><br /><strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: <a href="https://www.linkedin.com/in/pkfranz" target="_blank">Paul Franz</a>, <a href="https://www.linkedin.com/in/claireboccongibod/" target="_blank">Claire Boccon-Gibod</a>, Sofia Nunes Aureli.<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
   chapters: [
     {
       id: "INTRO",
@@ -77,12 +77,12 @@ var config = {
         {
           layer: "country-vote-poly",
           duration: 2000,
-          opacity: 1,
+          opacity: .7,
         },
         {
           layer: "extra-countries",
           duration: 2000,
-          opacity: 1,
+          opacity: .7,
         },
         {
           layer: "vote-borders",
@@ -155,17 +155,17 @@ var config = {
           opacity: 1,
         },
         {
-          layer: "sudan-crisis-may",
+          layer: "sudan-crisis",
           duration: 2000,
           opacity: 1,
         },
         {
-          layer: "sudan-stressed-may",
+          layer: "sudan-stressed",
           duration: 2000,
           opacity: 1,
         },
         {
-          layer: "sudan-no-data-may",
+          layer: "sudan-no-data",
           duration: 2000,
           opacity: 1,
         },
@@ -177,22 +177,22 @@ var config = {
           opacity: 0,
         },
         {
-          layer: "sudan-emergency-may",
+          layer: "sudan-emergency",
           duration: 2000,
           opacity: 0,
         },
         {
-          layer: "sudan-crisis-may",
+          layer: "sudan-crisis",
           duration: 2000,
           opacity: 0,
         },
         {
-          layer: "sudan-stressed-may",
+          layer: "sudan-stressed",
           duration: 2000,
           opacity: 0,
         },
         {
-          layer: "sudan-no-data-may",
+          layer: "sudan-no-data",
           duration: 2000,
           opacity: 0,
         },
@@ -469,7 +469,7 @@ var config = {
         "Meeting Sexual and Reproductive Health Needs in Conflict Settings",
       image: "",
       description:
-        "As budget cuts upend the UN system, sexual and reproductive health services in conflict zones are at particular risk. Donors should ringfence their remaining support for these health services, while working with the UN to intensify efforts to address the shortcomings in national healthcare systems." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130956" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/gender.png" /><p class="photocaption"><strong>Source</strong>: Occupations such as midwifery are cost effective investments in boosting countries lasting capabilities, as they offer ways to fulfill <a href="https://www.unfpa.org/press/unfpa-warns- devastating-impact-funding-cuts-midwife-support-crisis-hit-countries" target="_blank">basic sexual and reproductive health care needs</a> at relatively low cost.</p><br /><br />',
+        "As budget cuts upend the UN system, sexual and reproductive health services in conflict zones are at particular risk. Donors should ringfence their remaining support for these health services, while working with the UN to intensify efforts to address the shortcomings in national healthcare systems." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130956" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/gender.png" /><p class="photocaption"><strong>Source</strong>: Occupations such as midwifery are cost effective investments in boosting countries lasting capabilities, as they offer ways to fulfill <a href="https://www.unfpa.org/press/unfpa-warns- devastating-impact-funding-cuts-midwife-support-crisis-hit-countries" target="_blank">basic sexual and reproductive health care needs</a> at relatively low cost.</p>',
       location: {
         center: [-28.58292, 10.67017],
         zoom: 2,
