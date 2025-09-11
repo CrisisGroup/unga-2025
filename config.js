@@ -1,20 +1,20 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cmfebsr9b00j401rw83kf81th",
+  style: "mapbox://styles/daltonwb/cmfeevmba006301qs1mkdh06g",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
-  showMarkers: false,
-  markerColor: "#3FB1CE",
-  inset: false,
-  theme: "light",
   projection: "globe",
+  inset: false,
+  insetOptions: {
+    markerColor: '#a4343a'
+  },
+  insetPosition: 'bottom-left',
   use3dTerrain: false,
-  title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Challenges for the UN in 2025–2026</h1><p class="hedp">World leaders arriving in New York for the UN General Assembly in September will find a world organisation in trauma. Funding cuts have hit hard, and the wider UN membership faces tough choices about how to manage the fall out. Despite long-term questions over its future, the UN can still play a major role in a wide range of countries, conflicts and areas of work.</p>' +
-    '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
-  subtitle: "",
-  byline: "",
+  auto: false,
+  title: '<h1>Ten Challenges for the UN in 2025–2026</h1><video id="background-video" autoplay loop muted poster="images/poster.webp"><source src="images/aerial.webm" type="video/webm">',
+  subtitle: 'World leaders arriving in New York for the UN General Assembly in September will find a world organisation in trauma. Funding cuts have hit hard, and the wider UN membership faces tough choices about how to manage the fall out. Despite long-term questions over its future, the UN can still play a major role in a wide range of countries, conflicts and areas of work.',
+  start: 'BEGIN',
   footer:
-    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: <a href="https://www.linkedin.com/in/pkfranz" target="_blank">Paul Franz</a>, Claire Boccon-Gibod, Sofia Nunes Aureli.<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    '<strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: <a href="https://www.linkedin.com/in/pkfranz" target="_blank">Paul Franz</a>, Claire Boccon-Gibod, Sofia Nunes Aureli.<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
   chapters: [
     {
       id: "INTRO",
@@ -28,14 +28,14 @@ var config = {
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
         center: [34.589385, 24.578897],
-        zoom: 3.6,
+        zoom: 3.25,
         pitch: 57,
         bearing: -44,
         speed: 0.7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "disableFreetime",
+      callback: 'disableFreetime',
       onChapterEnter: [
         {
           layer: "un_funding",
@@ -58,7 +58,9 @@ var config = {
       title: "Safeguarding UN assistance to Palestine",
       image: "",
       description:
-        "Despite Israeli pushback on UN assistance to Gaza, the General Assembly can serve as a clearinghouse for concrete pledges to apply material pressure on Israel. 124 member states voted in favour of a September 2024 General Assembly resolution that builds on the International Court of Justice’s advisory opinion asserting the illegality of Israeli’s continued occupation of the Palestinian territories, and lays out legal duties that member states can act upon.",
+        "Despite Israeli pushback on UN assistance to Gaza, the General Assembly can serve as a clearinghouse for concrete pledges to apply material pressure on Israel. Notably, 124 member states voted in favour of a September 2024 General Assembly resolution that builds on the International Court of Justice’s advisory opinion asserting the illegality of Israeli’s continued occupation of the Palestinian territories, and lays out legal duties that member states can act upon." +
+        '<div class="spacer"></div>' +
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130928" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-61.29315, 9.81898],
         zoom: 2,
@@ -111,25 +113,76 @@ var config = {
       title: "A Surge in Humanitarian Diplomacy for Sudan",
       image: "",
       description:
-        "Unrelenting fighting has devastated much of Sudan. In December 2024 the IPC detected famine in parts of the Darfur and Kordofan regions, and said recently that other areas are now at risk. The UN should not delay in pushing for an improved humanitarian response, while standing ready to re-engage with political negotiations if and when they resume." +
+        "Unrelenting fighting has devastated much of Sudan. In December 2024 the UN’s famine watchdog organisation – or the Integrated Food Security Phase Classification (IPC) – detected famine in parts of the Darfur and Kordofan regions, and said recently that other areas are now at risk. The UN should not delay in pushing for an improved humanitarian response, while standing ready to re-engage with political negotiations if and when they resume." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120468" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130932" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [22.22724, 13.4534],
         zoom: 16.5,
         pitch: 20,
         bearing: 0,
         speed: 0.6,
-        bbox: [[21.8, 8.7], [38.6, 22.3]]
+        bbox: [
+          [18.0, 5.0],
+          [42.0, 25.0]
+        ],
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "disableFreetime",
       onChapterEnter: [
-
+        {
+          layer: "sudan-a2-borders",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan-emergency-may",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan-crisis-may",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan-stressed-may",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan-no-data-may",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "sudan-a2-borders",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan-emergency-may",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan-crisis-may",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan-stressed-may",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan-no-data-may",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -189,14 +242,14 @@ var config = {
       title: "Updating Sanctions on the Afghan Taliban",
       image: "",
       description:
-        "The mandate of the Security Council’s sanctions regime against the Taliban - comprising an arms embargo, travel bans and asset freezes - has not been updated since 2015 and contains many anachronisms. Updating the sanctions regime could help the Council nudge the Taliban towards modest changes in their behaviour and offer the UN a belated diplomatic opportunity to influence Afghanistan’s trajectory." + '<div class="spacer"></div>' +
+        "The mandate of the Security Council’s sanctions regime against the Taliban – comprising an arms embargo, travel bans and asset freezes – has not been updated since 2015 and contains many anachronisms. Updating the sanctions regime could help the Council nudge the Taliban towards modest changes in their behaviour and offer the UN a belated diplomatic opportunity to influence Afghanistan’s trajectory." + '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
       location: {
-        center: [-74.09794, 4.69284],
-        zoom: 6,
+        center: [33.9391, 67.7100],
+        zoom: 5,
         pitch: 0,
         bearing: 0,
-        speed: 1,
+        speed: .7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -213,15 +266,40 @@ var config = {
       title: "Adjusting MONUSCO’s Role in the Eastern DRC",
       image: "",
       description:
-        "The Security Council will vote in December on a new mandate for MONUSCO, the blue helmet mission in the Eastern DRC, nearly a year after Rwandan-backed M23 rebels captured the capitals of the North Kivu and South Kivu provinces. The UN still has a role to play in the region, especially if the parties comply with a long-promised ceasefire." + "<div class='spacer'></div>" + "This map shows countries currently hosting UN peacekeeping missions, AU-authorised peace support operations and regional security operations." +
+        "The Security Council will vote in December on a new mandate for MONUSCO, the blue helmet mission in the Eastern DRC, nearly a year after Rwandan-backed M23 rebels captured the capitals of the North Kivu and South Kivu provinces. The UN still has a role to play in the region, especially if the parties comply with a long-promised ceasefire." + "<div class='spacer'></div>" + "M23 rebels captured the Goma airport as part of their assault on the capital city of North Kivu. This is a view of the airport before the takeover." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120484" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130948" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [29.23758, -1.65779],
         zoom: 15,
         pitch: 0,
         bearing: 0,
-        speed: 0.4,
+        speed: 0.7,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+
+      ],
+      onChapterExit: [
+
+      ],
+    },
+    {
+      id: "DRC-2",
+      alignment: "left",
+      hidden: false,
+      title: " ",
+      image: "",
+      description:
+        "By February 2025, the airport runways are empty, replaced by barricades.",
+      location: {
+        center: [29.23758, -1.65779],
+        zoom: 15,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -251,7 +329,7 @@ var config = {
         speed: 0.6,
       },
       mapAnimation: "flyTo",
-      rotateAnimation: true,
+      rotateAnimation: false,
       callback: "",
       onChapterEnter: [
 
@@ -268,7 +346,7 @@ var config = {
         "Meeting Sexual and Reproductive Health Needs in Conflict Settings",
       image: "",
       description:
-        "As budget cuts upend the UN system, sexual and reproductive health services in conflict zones are at particular risk. Donors should ringfence their remaining support for these health services, while working with the UN to intensify efforts to address the shortcomings in national healthcare systems." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/terror_aid.png" /><br /><br />',
+        "As budget cuts upend the UN system, sexual and reproductive health services in conflict zones are at particular risk. Donors should ringfence their remaining support for these health services, while working with the UN to intensify efforts to address the shortcomings in national healthcare systems." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/gender.png" /><br /><br />',
       location: {
         center: [-28.58292, 10.67017],
         zoom: 2,
@@ -293,7 +371,7 @@ var config = {
       title: "Managing the Fallout of Snapback Sanctions on Iran",
       image: "",
       description:
-        "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs.  The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
+        "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs. The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [20.69195, 43.91663],
         zoom: 3,
@@ -303,7 +381,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "disableFreetime",
+      callback: 'disableFreetime',
       onChapterEnter: [
 
       ],
