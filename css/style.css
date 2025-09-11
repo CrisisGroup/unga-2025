@@ -179,7 +179,7 @@ p {
 #footer {
     width: 100%;
     min-height: 5vh;
-    padding: 2vh 0;
+    padding: 8vh 0;
     text-align: center;
     line-height: 25px;
     font-size: 13px;
@@ -383,12 +383,12 @@ p {
 }
 
 .photocaption {
-    font-size: 0.6em;
+    font-size: 0.8em;
     line-height: 1.2rem;
     letter-spacing: .02em;
     display: block;
-    margin-bottom: 10px;
-    color: #000;
+    margin: 10px 0 10px 0;
+    color: #fff;
 }
 
 .mapboxgl-ctrl-top-right {
