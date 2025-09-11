@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cmfeevmba006301qs1mkdh06g",
+  style: "mapbox://styles/daltonwb/cmffjs704000v01sd5t41fihe",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   projection: "globe",
@@ -189,6 +189,86 @@ var config = {
       ],
     },
     {
+      id: "SUDAN-2",
+      alignment: "left",
+      hidden: false,
+      title: "A Surge in Humanitarian Diplomacy for Sudan",
+      image: "",
+      legendId: 'sudanLegend',
+      description:
+        "Unrelenting fighting has devastated much of Sudan. In December 2024 the UN’s famine watchdog organisation – or the Integrated Food Security Phase Classification (IPC) – detected famine in parts of the Darfur and Kordofan regions, and said recently that other areas are now at risk. The UN should not delay in pushing for an improved humanitarian response, while standing ready to re-engage with political negotiations if and when they resume." +
+        '<div class="spacer"></div>' +
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130932" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [22.22724, 13.4534],
+        zoom: 16.5,
+        pitch: 20,
+        bearing: 0,
+        speed: 0.6,
+        bbox: [
+          [18.0, 5.0],
+          [42.0, 25.0]
+        ],
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "disableFreetime",
+      onChapterEnter: [
+        {
+          layer: "sudan-a2-borders",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan-emergency-may",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan-crisis-may",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan-stressed-may",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan-no-data-may",
+          duration: 2000,
+          opacity: 1,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "sudan-a2-borders",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan-emergency-may",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan-crisis-may",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan-stressed-may",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan-no-data-may",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
+    },
+    {
       id: "SYRIA",
       alignment: "center",
       hidden: false,
@@ -286,10 +366,18 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-
+        {
+          layer: "dec2024",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "dec2024",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -311,10 +399,18 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-
+        {
+          layer: "feb2025",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "feb2025",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
