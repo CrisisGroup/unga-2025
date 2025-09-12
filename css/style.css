@@ -15,7 +15,7 @@ a:visited {
     color: #8aadbe;
     text-decoration-style: dotted;
     text-underline-offset: 0.2em;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 #map {
@@ -128,8 +128,8 @@ h4 {
 }
 
 .spacer {
-  height: 6px;
-  border: none !important;
+    height: 6px;
+    border: none !important;
 }
 
 .legend h4 {
@@ -137,39 +137,6 @@ h4 {
     font-size: 1rem;
     display: block;
     text-shadow: 0 0 10px #000000;
-}
-
-.trade {
-    background-color: #2A436F;
-    color: #A3CEDE;
-    font-weight: bold;
-    padding: 2px 6px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-.suez {
-    background-color: #2A436F;
-    color: #FFFFFF;
-    font-weight: bold;
-    padding: 2px 6px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-.axis {
-    background-color: #cfb2a9;
-    color: #A4343A;
-    font-weight: bold;
-    padding: 2px 6px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-.axis-nobg {
-    color: #A4343A;
-    font-weight: bold;
-    display: inline-block;
 }
 
 p {
@@ -254,9 +221,28 @@ p {
 }
 
 .fully .main {
-        border: none !important;
-        border-radius: 0 !important;
-        padding: 50px;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 50px;
+}
+
+#AFGHAN .main p {
+    width: 60%;
+    margin: auto;
+    font-size: 1.6em;
+    margin-top: 0;
+    font-weight: normal;
+    font-family: "franklin-gothic-urw", sans-serif;
+}
+
+#AFGHAN .main h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b1ccd6;
+    line-height: 1.2em;
+    margin: auto auto 10px auto;
+    width: 60%;
+    display: block !important;
 }
 
 .main {
@@ -294,13 +280,13 @@ p {
     border-radius: 0;
     font-size: inherit;
     line-height: inherit;
-  }
+}
 
-  .text-step:not(:first-child) {
+.text-step:not(:first-child) {
     margin-top: 2em;
-    border-top: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 1em;
-  }
+}
 
 .step img {
     width: 100%;
@@ -426,7 +412,8 @@ p {
 
 /* CHAPTER SPECIAL */
 
-#CH02 .main, #CH02 .multi-step-container {
+#CH02 .main,
+#CH02 .multi-step-container {
     background: none;
     border: none;
     border-radius: 0;
@@ -434,7 +421,8 @@ p {
     padding: 0;
 }
 
-#CH09 .main, #CH09 .multi-step-container {
+#CH09 .main,
+#CH09 .multi-step-container {
     background: none;
     border: none;
     border-radius: 0;
