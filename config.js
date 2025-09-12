@@ -299,8 +299,20 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      onChapterEnter: [
+        {
+          layer: "syria-fill",
+          duration: 2000,
+          opacity: 1,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "syria-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
     },
     {
       id: "HAITI",
@@ -324,10 +336,28 @@ var config = {
       rotateAnimation: false,
       callback: "roadDraw",
       onChapterEnter: [
-
+        {
+          layer: "HAITI_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "pop_label",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "HAITI_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "pop_label",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -350,9 +380,19 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-
+        {
+          layer: "afghanistan-fill",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: "afghanistan-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
     },
     {
       id: "DRC",
@@ -394,10 +434,10 @@ var config = {
       id: "DRC-2",
       alignment: "left",
       hidden: false,
-      title: "Goma Airport - February 2025",
+      title: "",
       image: "",
       description:
-        "The airport runways are empty, replaced by barricades after the .",
+        "<br />The airport runways are empty, replaced by barricades after the takeover of M23.",
       location: {
         center: [29.23758, -1.65779],
         zoom: 17,
@@ -664,8 +704,8 @@ var config = {
       description:
         "The Trump Administration shook up UN debates in February by opposing a Ukrainian- and European- drafted General Assembly resolution marking the war’s third anniversary and tabling an alternative in the Security Council calling for an early peace." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130964" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [65.75493, 34.10071],
-        zoom: 3,
+        center: [5.63450, 19.76469],
+        zoom: 2.4,
         pitch: 0,
         bearing: 0,
         speed: .7,
@@ -697,14 +737,14 @@ var config = {
       id: "UKRAINE-2",
       alignment: "left",
       hidden: false,
-      title: "Tracking Votes On The U.S.-backed Resolution",
+      title: "",
       image: "",
       legendId: 'ukraineLegend2',
       description:
-        "Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation.",
+        "<br />Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation.",
       location: {
-        center: [65.75493, 34.10071],
-        zoom: 3,
+        center: [5.63450, 19.76469],
+        zoom: 2.4,
         pitch: 0,
         bearing: 0,
         speed: .7,

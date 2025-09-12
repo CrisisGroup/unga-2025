@@ -106,7 +106,7 @@ a:visited {
 }
 
 .start-button:hover {
-    background-color: #8aadbe;
+    background-color: #175c7d;
 }
 
 h3 {
@@ -312,7 +312,8 @@ p {
     bottom: 40px;
     right: 40px;
     color: #E4E4E4;
-    padding: 10px 50px;
+    padding: 10px;
+    border-radius: 5px;
     z-index: 1000;
     font-weight: 700;
     text-shadow: 0 0 10px #000000;
