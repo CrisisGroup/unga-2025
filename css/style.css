@@ -33,8 +33,10 @@ a:visited {
 }
 
 .corner-image {
-    width: 100px;
-    height: auto;
+    width: 150px;
+    height: 150px;
+    top: 3%;
+    right: 5%;
     opacity: 0.9;
     transition: opacity 0.3s ease-in-out;
 }
@@ -69,7 +71,7 @@ a:visited {
 
 #header h1 {
     margin: 0;
-    padding: 2vh 10vw;
+    padding: 2vh 15vw;
     color: #fff;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     font-size: 72px;
@@ -79,7 +81,7 @@ a:visited {
     text-align: center;
     font-family: 'franklin-gothic-urw', sans-serif;
     color: #FFF;
-    padding: 0 20% 0 20%;
+    padding: 0 25% 0 25%;
     font-size: 1.6em;
     letter-spacing: .01em;
     line-height: 1.5em;
@@ -89,7 +91,7 @@ a:visited {
 
 .start-button {
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 4rem;
     padding: 20px;
     width: 150px;
     font-size: 1.5rem;
@@ -104,7 +106,7 @@ a:visited {
 }
 
 .start-button:hover {
-    background-color: #a4343a;
+    background-color: #8aadbe;
 }
 
 h3 {
@@ -315,6 +317,8 @@ p {
     font-weight: 700;
     text-shadow: 0 0 10px #000000;
     width: 20%;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.2);
 }
 
 #legend-black {

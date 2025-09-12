@@ -64,10 +64,10 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130928" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [-61.29315, 9.81898],
-        zoom: 2,
-        pitch: 18,
-        bearing: 12,
+        center: [26.04134, 21.99575],
+        zoom: 2.4,
+        pitch: 0,
+        bearing: 0,
         speed: .5
       },
       mapAnimation: "flyTo",
@@ -318,7 +318,7 @@ var config = {
         zoom: 11.5,
         pitch: 67,
         bearing: -176,
-        speed: 0.7,
+        speed: 0.5,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -340,8 +340,8 @@ var config = {
         "The mandate of the Security Council’s sanctions regime against the Taliban – comprising an arms embargo, travel bans and asset freezes – has not been updated since 2015 and contains many anachronisms. Updating the sanctions regime could help the Council nudge the Taliban towards modest changes in their behaviour and offer the UN a belated diplomatic opportunity to influence Afghanistan’s trajectory." + '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130944" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
       location: {
-        center: [67.7100, 33.9391],
-        zoom: 5,
+        center: [65.75493, 34.10071],
+        zoom: 3,
         pitch: 0,
         bearing: 0,
         speed: .7,
@@ -394,10 +394,10 @@ var config = {
       id: "DRC-2",
       alignment: "left",
       hidden: false,
-      title: " ",
+      title: "Goma Airport - February 2025",
       image: "",
       description:
-        "By February 2025, the airport runways are empty, replaced by barricades.",
+        "The airport runways are empty, replaced by barricades after the .",
       location: {
         center: [29.23758, -1.65779],
         zoom: 17,
@@ -664,11 +664,11 @@ var config = {
       description:
         "The Trump Administration shook up UN debates in February by opposing a Ukrainian- and European- drafted General Assembly resolution marking the war’s third anniversary and tabling an alternative in the Security Council calling for an early peace." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130964" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [-61.29315, 9.81898],
-        zoom: 2,
-        pitch: 18,
-        bearing: 12,
-        speed: .5
+        center: [65.75493, 34.10071],
+        zoom: 3,
+        pitch: 0,
+        bearing: 0,
+        speed: .7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
@@ -682,7 +682,7 @@ var config = {
         {
           layer: "eu_vote",
           duration: 2000,
-          opacity: 1,
+          opacity: .7,
         },
       ],
       onChapterExit: [
@@ -697,17 +697,17 @@ var config = {
       id: "UKRAINE-2",
       alignment: "left",
       hidden: false,
-      title: "Scoping a Potential Role for the UN in Ukraine",
+      title: "Tracking Votes On The U.S.-backed Resolution",
       image: "",
       legendId: 'ukraineLegend2',
       description:
         "Even though a settlement is not yet in view, UN officials and diplomats should think through possible roles for the organisation.",
       location: {
-        center: [-61.29315, 9.81898],
-        zoom: 2,
-        pitch: 18,
-        bearing: 12,
-        speed: .5
+        center: [65.75493, 34.10071],
+        zoom: 3,
+        pitch: 0,
+        bearing: 0,
+        speed: .7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
@@ -716,7 +716,7 @@ var config = {
         {
           layer: "us_vote",
           duration: 2000,
-          opacity: 1,
+          opacity: .7,
         },
         {
           layer: "vote-borders",
