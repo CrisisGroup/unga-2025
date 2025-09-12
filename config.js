@@ -303,7 +303,7 @@ var config = {
         {
           layer: "syria-fill",
           duration: 2000,
-          opacity: 1,
+          opacity: .7,
         },
       ],
       onChapterExit: [
@@ -383,7 +383,7 @@ var config = {
         {
           layer: "afghanistan-fill",
           duration: 2000,
-          opacity: 1,
+          opacity: .7,
         },
       ],
       onChapterExit: [
