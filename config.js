@@ -362,13 +362,13 @@ var config = {
     },
     {
       id: "AFGHAN",
-      alignment: "center",
+      alignment: "full",
       hidden: false,
       title: "Updating Sanctions on the Afghan Taliban",
       image: "",
       description:
         "The mandate of the Security Council’s sanctions regime against the Taliban – comprising an arms embargo, travel bans and asset freezes – has not been updated since 2015 and contains many anachronisms. Updating the sanctions regime could help the Council nudge the Taliban towards modest changes in their behaviour and offer the UN a belated diplomatic opportunity to influence Afghanistan’s trajectory." + '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130944" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130944" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/afghanistan.png' />",
       location: {
         center: [65.75493, 34.10071],
         zoom: 3,

@@ -250,6 +250,13 @@ p {
 .fully {
     width: 100%;
     margin: auto;
+    padding-bottom: 50vh !important;
+}
+
+.fully .main {
+        border: none !important;
+        border-radius: 0 !important;
+        padding: 50px;
 }
 
 .main {
