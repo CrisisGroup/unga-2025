@@ -414,7 +414,7 @@ var config = {
         zoom: 11.2,
         pitch: 14.5,
         bearing: 41,
-        speed: 0.6,
+        speed: 0.8,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -482,13 +482,13 @@ var config = {
     },
     {
       id: "IRAN",
-      alignment: "left",
+      alignment: "center",
       hidden: false,
       title: "Managing the Fallout of Snapback Sanctions on Iran",
       image: "",
       legendId: '',
       description:
-        "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs. The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130960" target="_blank">&#8594; [Read more]</a>',
+        "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs." + "<div class='spacer'></div>" + "<img src='images/snapback.png'>" + "<p class='photocaption'>Steps to the Snapback Process (as outlined in UNSC Resolution 2231). <strong>Source</strong>: Crisis Group</p>" + "The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + "<div class='spacer'></div>" + "<img src='images/iran-triggers.png' />" + '<p class="photocaption">Pre-2015 UN sanctions against Iran and the sectors they target. <strong>Source</strong>: Crisis Group</p>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130960" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [20.69195, 43.91663],
         zoom: 3,
