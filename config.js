@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cmfjocvtk009g01qwd5b8fs4s",
+  style: "mapbox://styles/daltonwb/cmfk2n8qt000b01sa4skh0p56",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   projection: "globe",
@@ -267,6 +267,11 @@ var config = {
           opacity: 1,
         },
         {
+          layer: "kenscoff_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "pop_label",
           duration: 2000,
           opacity: 1,
@@ -275,6 +280,11 @@ var config = {
       onChapterExit: [
         {
           layer: "HAITI_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "kenscoff_label",
           duration: 2000,
           opacity: 0,
         },
