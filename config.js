@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cmffngv3f000q01qp82dq5g31",
+  style: "mapbox://styles/daltonwb/cmfjocvtk009g01qwd5b8fs4s",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   projection: "globe",
@@ -343,7 +343,7 @@ var config = {
       onChapterEnter: [
         {
           layer: "dec2024",
-          duration: 2000,
+          duration: 3000,
           opacity: 1,
         },
       ],
@@ -376,7 +376,7 @@ var config = {
       onChapterEnter: [
         {
           layer: "feb2025",
-          duration: 2000,
+          duration: 3000,
           opacity: 1,
         },
       ],
@@ -415,6 +415,11 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+             {
+          layer: "BANGLADESH_label",
+          duration: 2000,
+          opacity: 1,
+        },
         {
           layer: "cox_area",
           duration: 2000,
@@ -424,6 +429,11 @@ var config = {
       onChapterExit: [
         {
           layer: "bazar_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "BANGLADESH_label",
           duration: 2000,
           opacity: 0,
         },
@@ -516,6 +526,11 @@ var config = {
           opacity: 1,
         },
         {
+          layer: "IRAN_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "paris_label",
           duration: 2000,
           opacity: 1,
@@ -584,6 +599,11 @@ var config = {
         },
         {
           layer: "london",
+          duration: 2000,
+          opacity: 0,
+        },
+             {
+          layer: "IRAN_label",
           duration: 2000,
           opacity: 0,
         },
