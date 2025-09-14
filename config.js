@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cmfk2n8qt000b01sa4skh0p56",
+  style: "mapbox://styles/daltonwb/cmfk3m8ad000801rxep59hfrf",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   projection: "globe",
@@ -40,14 +40,14 @@ var config = {
       onChapterEnter: [
         {
           layer: "un_funding",
-          duration: 2000,
+          duration: 1500,
           opacity: 1,
         },
       ],
       onChapterExit: [
         {
           layer: "un_funding",
-          duration: 2000,
+          duration: 1500,
           opacity: 0,
         },
       ],
@@ -320,6 +320,11 @@ var config = {
           duration: 2000,
           opacity: .7,
         },
+        {
+          layer: "dec2024",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
       onChapterExit: [
         {
@@ -358,11 +363,7 @@ var config = {
         },
       ],
       onChapterExit: [
-        {
-          layer: "dec2024",
-          duration: 2000,
-          opacity: 0,
-        },
+
       ],
     },
     {
@@ -396,6 +397,11 @@ var config = {
           duration: 2000,
           opacity: 0,
         },
+        {
+          layer: "dec2024",
+          duration: 3000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -425,7 +431,7 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
-             {
+        {
           layer: "BANGLADESH_label",
           duration: 2000,
           opacity: 1,
@@ -612,7 +618,7 @@ var config = {
           duration: 2000,
           opacity: 0,
         },
-             {
+        {
           layer: "IRAN_label",
           duration: 2000,
           opacity: 0,
