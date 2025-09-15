@@ -14,7 +14,7 @@ var config = {
   subtitle: 'World leaders arriving in New York for the UN General Assembly in September will find a world organisation in trauma. Funding cuts have hit hard, and the wider UN membership faces tough choices about how to manage the fall out. Despite long-term questions over its future, the UN can still play a major role in a wide range of countries, conflicts and areas of work.',
   start: 'BEGIN',
   footer:
-    '<h4>Credits</h4><br /><br /><strong>Lead Contributors</strong>: Regional Program staff, the UN Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: <a href="https://www.linkedin.com/in/pkfranz" target="_blank">Paul Franz</a>, <a href="https://www.linkedin.com/in/claireboccongibod/" target="_blank">Claire Boccon-Gibod</a>, Sofia Nunes Aureli.<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
+    '<h4>Credits</h4><br /><br /><strong>Lead Contributors</strong>: UN Advocacy, Regional programs and Cross-cutting staff.<br /><strong>Visualisation & Design</strong>: <a href="https://www.linkedin.com/in/pkfranz" target="_blank">Paul Franz</a>, <a href="https://www.linkedin.com/in/claireboccongibod/" target="_blank">Claire Boccon-Gibod</a>, Sofia Nunes Aureli.<br /><br />Originally published on 15 September 2025<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
   chapters: [
     {
       id: "INTRO",
@@ -213,7 +213,7 @@ var config = {
       description:
         "The UN has been recalculating its engagement in Syria since the ouster of President Bashar al-Assad in December 2024. It may have only a small window of opportunity to demonstrate that the UN can be a helpful partner as Syria tries to emerge from war and authoritarian rule. Steps should be taken to expand the UN’s presence in Damascus and lift UN sanctions on the new authorities." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130936" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/syria.jpg' /><p class='photocaption'>People attend the event of raising the new Syrian government flag for the first time, outside United Nations Headquarters in New York, U.S., April 25, 2025. REUTERS / Eduardo Munoz</p>",
+        '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130936" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/syria.jpg' /><p class='photocaption'>People attend the event of raising the new Syrian government flag for the first time, outside United Nations Headquarters in New York, U.S., 25 April, 2025. REUTERS / Eduardo Munoz</p>",
       location: {
         center: [38.9968, 35.0143],
         zoom: 4,
@@ -320,11 +320,6 @@ var config = {
           duration: 2000,
           opacity: .7,
         },
-        {
-          layer: "dec2024",
-          duration: 2000,
-          opacity: 0,
-        },
       ],
       onChapterExit: [
         {
@@ -360,20 +355,30 @@ var config = {
           layer: "dec2024",
           duration: 3000,
           opacity: 1,
+        },        
+        {
+          layer: "feb2025",
+          duration: 5,
+          opacity: 1,
         },
       ],
       onChapterExit: [
-
+         {
+          layer: "dec2024",
+          duration: 1000,
+          opacity: 0,
+        },
       ],
     },
     {
       id: "DRC-2",
-      alignment: "left",
+      alignment: "none",
       hidden: false,
       title: "",
       image: "",
+      legendId: "drcLegend",
       description:
-        "<br />The airport runways are empty, replaced by barricades after the takeover of M23.",
+        "",
       location: {
         center: [29.23758, -1.65779],
         zoom: 17,
@@ -387,7 +392,7 @@ var config = {
       onChapterEnter: [
         {
           layer: "feb2025",
-          duration: 3000,
+          duration: 1000,
           opacity: 1,
         },
       ],
@@ -395,11 +400,6 @@ var config = {
         {
           layer: "feb2025",
           duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "dec2024",
-          duration: 3000,
           opacity: 0,
         },
       ],
@@ -410,13 +410,12 @@ var config = {
       hidden: false,
       title: "Refocusing Attention on the Rohingya Refugee Crisis",
       image: "",
-      legendId: 'myanmarLegend',
       description:
         "On 30 September, UN members will hold a special high-level conference in New York on the Rohingya crisis. While this gathering will cover both the situation in Myanmar’s Rakhine State and questions related to the humanitarian response across the border, participants should also focus on insecurity in the refugee camps in Bangladesh." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130952" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [92.223778, 21.033171],
+        center: [92.15038, 21.19752],
         zoom: 11.2,
         pitch: 14.5,
         bearing: 41,
@@ -461,6 +460,32 @@ var config = {
       ],
     },
     {
+      id: "MYANMAR-2",
+      alignment: "none",
+      hidden: false,
+      title: "",
+      image: "",
+      legendId: 'myanmarLegend',
+      description:
+        "",
+      location: {
+        center: [92.15038, 21.19752],
+        zoom: 16,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.6,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+    
+      ],
+      onChapterExit: [
+
+      ],
+    },
+    {
       id: "GENDER",
       alignment: "center",
       hidden: false,
@@ -494,7 +519,7 @@ var config = {
       image: "",
       legendId: '',
       description:
-        "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs." + "<div class='spacer'></div>" + "<img src='images/snapback.png'>" + "<p class='photocaption'>Steps to the Snapback Process (as outlined in UNSC Resolution 2231). <strong>Source</strong>: Crisis Group</p>" + "The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + "<div class='spacer'></div>" + "<img src='images/iran-triggers.png' />" + '<p class="photocaption">Pre-2015 UN sanctions against Iran and the sectors they target. <strong>Source</strong>: Crisis Group</p>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130960" target="_blank">&#8594; [Read more]</a>',
+        "On 28 August, Britain, France and Germany (the JCPOA’s European signatories, known as the E3) triggered the snapback of previously suspended sanctions on Iran related to its nuclear and ballistic missile programs." + "<div class='spacer'></div>" + "<img src='images/snapback.png'>" + "<p class='photocaption'>Steps to the Snapback Process (as outlined in UNSC Resolution 2231). <strong>Source</strong>: Crisis Group</p><br />" + "The sanctions will come back into force unless the Council passes a resolution reaffirming their suspension by midnight of 28 September), leaving a critical (but slim) window for further negotiation." + "<div class='spacer'></div>" + "<img src='images/iran-triggers.png' />" + '<p class="photocaption">Pre-2015 UN sanctions against Iran and the sectors they target. <strong>Source</strong>: Crisis Group</p>' + '<a href="https://www.crisisgroup.org/global/sb13-ten-challenges-un-2025-2026#130960" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [20.69195, 43.91663],
         zoom: 3,
