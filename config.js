@@ -11,7 +11,7 @@ var config = {
   use3dTerrain: false,
   auto: false,
   title: '<h1>Ten Challenges for the UN in 2025–2026</h1><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/webm">',
-  subtitle: 'World leaders arriving in New York for the UN General Assembly in September will find a world organisation in trauma. Funding cuts have hit hard, and the wider UN membership faces tough choices about how to manage the fall out. Despite long-term questions over its future, the UN can still play a major role in a wide range of countries, conflicts and areas of work.',
+  subtitle: 'World leaders arriving in New York for the UN General Assembly in September will find a world organisation in trauma. Funding cuts have hit hard, and the wider UN membership faces tough choices about how to manage the fallout. Despite long-term questions over its future, the UN can still play a major role in a wide range of countries, conflicts and areas of work.',
   start: 'BEGIN',
   footer:
     '<h4>Credits</h4><br /><br /><strong>Lead Contributors</strong>: UN Advocacy, Regional programs and Cross-cutting staff.<br /><strong>Visualisation & Design</strong>: <a href="https://www.linkedin.com/in/pkfranz" target="_blank">Paul Franz</a>, <a href="https://www.linkedin.com/in/claireboccongibod/" target="_blank">Claire Boccon-Gibod</a>, Sofia Nunes Aureli.<br /><br />Originally published on 15 September 2025<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
