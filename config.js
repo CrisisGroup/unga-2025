@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cmfk3m8ad000801rxep59hfrf",
+  style: "mapbox://styles/daltonwb/cmfl170yy000y01s82qvj12uh",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   projection: "globe",
